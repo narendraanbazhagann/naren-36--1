@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{
+	float b, da, hra, ta, others,m,n,o;
+	float pf,it;
+	float ns;
+	printf("Enter Basic Salary : \n");
+	scanf("%f",&b);
+	printf("Enter HRA : \n");
+	scanf("%f",&hra);
+	printf("Enter TA : \n");
+	scanf("%f",&ta);	
+	printf("Enter others : \n");
+	scanf("%f",&others);
+	printf("DA % \n");
+	scanf("%d",&n);
+	printf("pf % \n");
+	scanf("%d",&m);
+	printf("it % \n");
+	scanf("%d",&o);
+
+	da = (b*n)/100;
+	pf = (b*m)/100;
+	it = (b*o)/100;
+	ns = b + da + hra + ta + others - (pf+it);
+	printf("Net Salary is: %.02f",ns);
+
+	return 0;
+}
