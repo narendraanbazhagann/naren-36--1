@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("Enter the number for a :\n");
+    scanf("%d",&a);
+    printf("Enter the number for b :\n");
+    scanf("%d",&b);
+    printf("Enter the number for c :\n");
+    scanf("%d",&c);
+    if(a>b && a>c)
+    {
+        printf("%d is greater than %d and %d\n",a,b,c);
+    }
+    else if (b>a && b>c)
+    {
+        printf("%d is greater than %d and %d\n",b,c,a);
+    }
+    else
+    {
+        printf("%d is greater than %d and %d",c,a,b);
+    }
+}
