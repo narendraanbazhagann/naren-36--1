@@ -1,0 +1,18 @@
+# include <stdio.h>
+int main()
+{
+    int a,b,c,d,e,f;
+    printf("Enter any number [three digit number] : \n");
+    scanf("%d",&a);
+    b=a%10;
+    c=a/10;
+    d=c%10;
+    e=c/10;
+    f=(b*b*b)+(d*d*d)+(e*e*e);
+    if(a==f)
+    {
+        printf("%d is an armstrong number\n",f);
+    }
+    else{
+        printf("%d is not an armstrong number \n the ans is %d",a,f);    }
+}
