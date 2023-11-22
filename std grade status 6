@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c,d,e,f;
+    printf("Enter the 1st sub mark[out of 100] : \n");
+    scanf("%d",&a);
+    printf("Enter the 2nd sub mark[out of 100] : \n");
+    scanf("%d",&b);
+    printf("Enter the 3rd sub mark[out of 100] : \n");
+    scanf("%d",&c);
+    if (a >= 40 && b>=40 && c>=40)
+    {
+        printf("You passed in all exams\n");
+    }
+    else if ( a<40&&b<40&&c<40)
+    {
+        printf("You failed in one or more exams\n");
+    }
+    else
+    {
+        printf("You failed in all exams\n");
+    }
+
+}
