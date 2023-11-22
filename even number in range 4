@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int a,n;
+    printf("Enter the number : \n");
+    scanf("%d",&a);
+    printf("The even number in the given range is : \n");
+    for (int i =1;i<=a;i++)
+    {
+        if(i%2==0)
+        {
+
+
+            printf("%d \n",i);
+        }
+    }
+
+}
