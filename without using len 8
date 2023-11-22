@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    char a[10000];
+    int l=0;
+    printf("Enter anything : \n");
+    scanf("%s",a);
+    for(int i=0; a[i]!='\0'; i++)
+    {
+        l=l+1;
+    }
+
+    printf("Length is %d",l);
+}
